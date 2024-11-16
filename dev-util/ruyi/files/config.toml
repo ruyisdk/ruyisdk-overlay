@@ -1,0 +1,3 @@
+[installation]
+# This ruyi installation is to be managed by Portage.
+externally_managed = true
