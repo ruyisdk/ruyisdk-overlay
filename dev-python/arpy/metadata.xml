@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>wangxuerui@iscas.ac.cn</email>
+		<name>WANG Xuerui</name>
+	</maintainer>
+	<stabilize-allarches/>
+	<upstream>
+		<remote-id type="pypi">arpy</remote-id>
+		<remote-id type="github">viraptor/arpy</remote-id>
+	</upstream>
+</pkgmetadata>
