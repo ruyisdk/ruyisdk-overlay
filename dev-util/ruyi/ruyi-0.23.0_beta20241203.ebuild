@@ -7,15 +7,15 @@ PYTHON_COMPAT=( python3_{11..13} )  # no python3.10 to avoid tomli
 
 inherit distutils-r1
 
-MY_PV="${PV/_beta/-beta.}"
+MY_PV="${PV/_alpha/-alpha.}"
+MY_PV="${MY_PV/_beta/-beta.}"
+MY_PV="${MY_PV/_rc/-rc.}"
+MY_P="${PN}-${MY_PV}"
 
 DESCRIPTION="RuyiSDK Package Manager"
 HOMEPAGE="https://github.com/ruyisdk/ruyi"
-SRC_URI="
-	https://github.com/ruyisdk/ruyi/archive/${MY_PV}.tar.gz
-		-> ${P}.gh.tar.gz
-"
-S="${WORKDIR}/${PN}-${MY_PV}"
+SRC_URI="https://github.com/ruyisdk/ruyi/releases/download/${MY_PV}/${MY_P}.tar.gz"
+S="${WORKDIR}/${MY_P}"
 
 LICENSE="Apache-2.0"
 SLOT="0"
