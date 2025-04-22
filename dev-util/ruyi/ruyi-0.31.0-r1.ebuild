@@ -14,7 +14,7 @@ MY_P="${PN}-${MY_PV}"
 
 DESCRIPTION="RuyiSDK Package Manager"
 HOMEPAGE="https://github.com/ruyisdk/ruyi"
-SRC_URI="https://github.com/ruyisdk/ruyi/releases/download/${MY_PV}/${MY_P}.tar.gz"
+SRC_URI="mirror://ruyi-source/${MY_PV}/${MY_P}.tar.gz"
 S="${WORKDIR}/${MY_P}"
 
 LICENSE="Apache-2.0"
