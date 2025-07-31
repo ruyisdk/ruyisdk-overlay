@@ -43,6 +43,6 @@ python_install_all() {
 	insinto "/usr/share/${PN}"
 	doins "${FILESDIR}/config.toml"
 
-	newbashcomp contrib/shell-completions/bash ruyi
-	newzshcomp contrib/shell-completions/zsh _ruyi
+	dobashcomp contrib/shell-completions/bash/ruyi
+	dozshcomp contrib/shell-completions/zsh/_ruyi
 }
