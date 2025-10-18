@@ -19,7 +19,9 @@ S="${WORKDIR}/${MY_P}"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~riscv"
+if [[ "$(ver_cut 4)" != alpha ]] ; then
+	KEYWORDS="~amd64 ~riscv"
+fi
 
 # do not bother downloading from official distfile mirrors
 RESTRICT="mirror"
