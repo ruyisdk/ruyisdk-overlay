@@ -29,6 +29,7 @@ RESTRICT="mirror"
 RDEPEND="
 	dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev-python/arpy[${PYTHON_USEDEP}]
+	dev-python/babel[${PYTHON_USEDEP}]
 	dev-python/fastjsonschema[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/pygit2[${PYTHON_USEDEP}]
