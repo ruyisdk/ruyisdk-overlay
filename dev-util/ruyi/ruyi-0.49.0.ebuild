@@ -3,7 +3,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=poetry
-PYTHON_COMPAT=( python3_{11..14} )  # no python3.10 to avoid tomli
+PYTHON_COMPAT=( python3_{11..15} )
 
 inherit distutils-r1 shell-completion
 
