@@ -32,12 +32,14 @@ RDEPEND="
 	dev-python/babel[${PYTHON_USEDEP}]
 	dev-python/fastjsonschema[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/lz4[${PYTHON_USEDEP}]
 	dev-python/pygit2[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]
 	dev-python/tomlkit[${PYTHON_USEDEP}]
+	dev-python/zstandard[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest
