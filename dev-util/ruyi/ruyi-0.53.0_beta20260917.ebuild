@@ -33,6 +33,8 @@ RDEPEND="
 	dev-python/fastjsonschema[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/lz4[${PYTHON_USEDEP}]
+	dev-python/pathspec[${PYTHON_USEDEP}]
+	dev-python/pyelftools[${PYTHON_USEDEP}]
 	dev-python/pygit2[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
