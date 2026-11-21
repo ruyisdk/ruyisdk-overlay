@@ -8,6 +8,6 @@
 	<stabilize-allarches/>
 	<upstream>
 		<remote-id type="pypi">arpy</remote-id>
-		<remote-id type="github">viraptor/arpy</remote-id>
+		<remote-id type="github">onekey-sec/arpy</remote-id>
 	</upstream>
 </pkgmetadata>
